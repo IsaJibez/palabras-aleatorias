@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+
+
 using namespace std;
 int main(){
 
@@ -33,11 +35,6 @@ int random_y = rand()%10+0;
 	{"coronavirus", "jajajajaja ", "nani", "Electroencefalografista", "wwwwwwwwwww", "Esternocleidomastoideo", "Electroencefalografia", "Electroencefalograma", "Otorrinolaringologo", "Electrocardiograma"}, //20
 	};
 
-
-for(int i = 0 ; i<10  ; i++){
-	random_x = rand()%20+0;	
-	random_y = rand()%10+0;
-	cout<<palabra[random_x][random_y]<<endl;;
-}
+	cout<<palabra[random_x][random_y]<<endl;
 	return 0;
 }
